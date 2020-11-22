@@ -34,7 +34,7 @@ public class Point {
     }
 
     public Point createNewTranslatedPoint(double xDelta, double yDelta) {
-       return new Point(x:this.x+xDelta, y:this.y+yDelta);
+       return new Point(x: this.x + xDelta, y: this.y + yDelta);
         
     }
 

@@ -41,7 +41,7 @@ public class Point {
     public boolean equals(Point otherPoint) {
     if(Utils.equals(this.x, otherPoint.x) && Utils.equals(this.y,otherPoint.y)){
             return true;
-    }
+    } else{
             return false;
     }
 
